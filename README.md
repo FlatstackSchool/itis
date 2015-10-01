@@ -12,3 +12,7 @@
 
 - [Рекомендуемые темы курсовых и дипломных работ](https://docs.google.com/spreadsheets/d/16j3BadwuRIsNcTH521KjPskETiQsNpJHPfdQLdJt_lQ/edit?usp=sharing)
 
+Учебный процесс состоит из спринтов:
+
+- Спринт 1. Установка ОС GNU/Linux, изучение базовых возможностей командной строки.
+- Спринт 2. Устанвка Ruby, изучение основ языка.
