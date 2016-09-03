@@ -14,4 +14,4 @@
 
 ## Литература
 
-* [The Well-Grounded Rubyist](books/the_well_grounded_rubyist.zip)
+* [The Well-Grounded Rubyist](https://github.com/fs/itis/raw/master/books/the_well_grounded_rubyist.zip)
