@@ -11,3 +11,7 @@
 ## Содержание
 
 * [Задание на летнюю практику 2016](practice/README.md)
+
+## Литература
+
+* [The Well-Grounded Rubyist](books/the_well_grounded_rubyist.zip)
