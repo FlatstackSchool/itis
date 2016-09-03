@@ -11,6 +11,13 @@
 ## Содержание
 
 * [Задание на летнюю практику 2016](practice/README.md)
+* [Спринт №1 : Изучение языка Ruby](sprints/sprint_1.md)
+
+## Полезные ссылки
+
+* [Установка Ruby on Rails на Ubuntu 16.04](https://gorails.com/setup/ubuntu/16.04)
+
+* [Установка Ruby on Rails на OS X El Capitan](https://gorails.com/setup/osx/10.11-el-capitan)
 
 ## Литература
 
