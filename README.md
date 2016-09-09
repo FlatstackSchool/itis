@@ -19,6 +19,8 @@
 
 * [Установка Ruby on Rails на OS X El Capitan](https://gorails.com/setup/osx/10.11-el-capitan)
 
+* [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
+
 ## Литература
 
 * [The Well-Grounded Rubyist](https://github.com/fs/itis/raw/master/books/the_well_grounded_rubyist.zip)
