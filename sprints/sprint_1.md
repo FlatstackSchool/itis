@@ -42,3 +42,43 @@
 
 Примерный формат файла:
 
+```
+First Name, Second Name, Phone Number, Address, Website URL
+Vladimir, Bazhanov, +79375295624, Pushkina 46, http://flatstack.com
+Ivan, Ivanov, +7 977 77 77 777, Unknown street, 46, http://google.com
+Petr, Sergeev, , Pobedy 105, http://yandex.ru
+```
+
+Заполнить файл случайными данными, примерно 15-20 строк. Разделителем значений считать запятую.
+
+Необходимо написать программу, которая выполнит следующие операции:
+
+- Откроет файл, прочитает данные из файла в память и сохранит в виде массива.
+- Выведет в терминал список имен колонок, и спросит пользователя, по какой колонке отсортировать данные. Пользователь должен выбрать одну колонку (например, ввести номер колонки, если программа показала пронумерованный список или же ввести имя).
+- Отсортирует данные и запишет и в новый файл с именем data_sorted_by_имяколонки.
+
+Рекомендуется попробовать реализовать сортировку с помощью функции method_missing, то есть вызывать в программе функцию сортировки вида data.sort_by_имяколонки, которая будет обработана через method_missing.
+
+пример:
+
+```
+data = Data.new(file_with_rows)
+...
+puts("please, type column name to sort by:")
+column_name = gets
+
+data.public_send("sort_by_#{column_name}")
+...
+
+
+class Data
+...
+  def method_missing(method_name, arguments)
+    ...
+    column_to_sort = method_name.my_cool_function_to_extract_column
+    ...
+
+    # some code that actually do array sorting :)
+  end
+...
+end
