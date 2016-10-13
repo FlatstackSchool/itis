@@ -14,6 +14,7 @@
 * Один из проектов компании Flatstack.
   * [Проект "Аналог игры "Борьба умов""](sandbox_game.md)
   * [Проект "Потеряшки"](sandbox_lostthings.md)
+  * [Проект "HR Tool"](sandbox_hr_too.md)
 
 ### Процесс разработки
 
