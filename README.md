@@ -10,9 +10,9 @@
 
 ## Содержание
 
-* [Проектный практикум](practice/README.md)
+* [Песочница проектов](sandbox/README.md)
 * [Спринт №1 : Изучение языка Ruby](sprints/sprint_1.md)
-
+* [Практическое задание № 1](practice/01.md)
 ## Полезные ссылки
 
 * [Установка Ruby on Rails на Ubuntu 16.04](https://gorails.com/setup/ubuntu/16.04)
